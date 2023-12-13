@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  background-color: white;
+}
+
+.zerodha-logo-div {
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.zerodha-logo {
+  width: 150px;
+}
+
+.navbar-items-menu {
+  padding: 15px;
+  width: 40%;
+}
+
+.navbar-items-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navbar-items-menu ul li {
+  padding: 15px;
+  color: grey;
+}
+
+.navbar-items-menu ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar-items-menu ul li a:hover {
+  color: rgb(13, 131, 204);
+}
+
+.navbar-items-menu ul li a:visited {
+  color: grey;
+}
+
+.landing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing {
+  margin-top: 10vh;
+}
+
+.landing-section-db-image {
+  width: 65%;
+  margin-bottom: 60px;
+}
+
+.landing-headline1 {
+  font-size: 50px;
+  color: rgb(87, 85, 85);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.landing-headline2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 100;
+}
+
+.sign-up-now-btn {
+  margin-top: 25px;
+  background-color: rgb(13, 131, 204);
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sign-up-now-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 40px;
+}
